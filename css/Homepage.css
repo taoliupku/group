@@ -642,6 +642,10 @@ a:active {
     margin: 12px 1.5%;
 }
 
+.Former-Members > .member-year-break {
+    clear: left;
+}
+
 .member-card {
     background-color: white;
     text-align: center;
@@ -666,6 +670,25 @@ a:active {
 
 .member-description p:hover {
     text-decoration: underline;
+}
+
+.member-description .member-role {
+    color: #767676;
+    font-size: 12px;
+    line-height: 1.35;
+    margin: 2px 0 6px;
+}
+
+.member-description .member-role:hover {
+    text-decoration: none;
+}
+
+.member-photo-placeholder {
+    width: 180px;
+    height: 240px;
+    margin: 8% auto 0;
+    border-radius: 10px;
+    background-color: #e6e6e6;
 }
 
 .Member-container:before, .Member-container:after, .member-card:before, .member-card:after, .member-description:before, .member-description:after {
